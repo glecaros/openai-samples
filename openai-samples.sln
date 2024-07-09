@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "on-your-data", "on-your-data", "{CBFD7A3D-88BB-4370-B386-A9D923DD9710}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ai-search", "ai-search", "{2AF6B451-FFCF-4F1D-B6F1-8C1F10786F4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "umi", "umi", "{15200167-E612-4F4B-A424-0BBD7B96B0BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OYDUserAssignedIdentity", "on-your-data\ai-search\umi\csharp\OYDUserAssignedIdentity.csproj", "{2ECCB14D-AFB9-4118-AA83-F42F6851BBB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ECCB14D-AFB9-4118-AA83-F42F6851BBB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ECCB14D-AFB9-4118-AA83-F42F6851BBB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ECCB14D-AFB9-4118-AA83-F42F6851BBB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ECCB14D-AFB9-4118-AA83-F42F6851BBB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2AF6B451-FFCF-4F1D-B6F1-8C1F10786F4E} = {CBFD7A3D-88BB-4370-B386-A9D923DD9710}
+		{15200167-E612-4F4B-A424-0BBD7B96B0BA} = {2AF6B451-FFCF-4F1D-B6F1-8C1F10786F4E}
+		{2ECCB14D-AFB9-4118-AA83-F42F6851BBB2} = {15200167-E612-4F4B-A424-0BBD7B96B0BA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99D03B68-67E5-4C61-B01B-7E52EFAFEDC6}
+	EndGlobalSection
+EndGlobal

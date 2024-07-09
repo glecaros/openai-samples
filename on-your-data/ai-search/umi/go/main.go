@@ -40,7 +40,7 @@ func main() {
 	}
 
 	reader := bufio.NewReader(os.Stdin)
-	fmt.Print("What do you need?")
+	fmt.Println("What do you need?")
 
 	inputText, _ := reader.ReadString('\n')
 
@@ -64,6 +64,30 @@ func main() {
 		},
 	}
 
-	azureOpenAIClient.GetChatCompletionsStream(context.Background())
+	response, err := azureOpenAIClient.GetChatCompletionsStream(context.Background(), options, nil)
 
+	if err != nil {
+		fmt.Println("Failed to get chat completions")
+		return
+	}
+
+	read_stream_response(response)
+
+}
+
+func read_stream_response(response azopenai.GetChatCompletionsStreamResponse) {
+	reader := response.ChatCompletionsStream
+	defer reader.Close()
+
+	for {
+		completion, err := reader.Read()
+		if err != nil {
+			break
+		}
+
+		if len(completion.Choices) > 0 && completion.Choices[0].Delta.Content != nil {
+
+			fmt.Print(*completion.Choices[0].Delta.Content)
+		}
+	}
 }
