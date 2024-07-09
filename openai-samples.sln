@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "umi", "umi", "{15200167-E61
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OYDUserAssignedIdentity", "on-your-data\ai-search\umi\csharp\OYDUserAssignedIdentity.csproj", "{2ECCB14D-AFB9-4118-AA83-F42F6851BBB2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "smi", "smi", "{A1660CAF-A8D6-4FD2-8003-ABB721D80793}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OYDSystemAssignedIdentity", "on-your-data\ai-search\smi\csharp\OYDSystemAssignedIdentity.csproj", "{6B4ACFC1-BC59-4AE7-B306-0B908650E9D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,10 @@ Global
 		{2ECCB14D-AFB9-4118-AA83-F42F6851BBB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2ECCB14D-AFB9-4118-AA83-F42F6851BBB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2ECCB14D-AFB9-4118-AA83-F42F6851BBB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B4ACFC1-BC59-4AE7-B306-0B908650E9D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B4ACFC1-BC59-4AE7-B306-0B908650E9D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B4ACFC1-BC59-4AE7-B306-0B908650E9D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B4ACFC1-BC59-4AE7-B306-0B908650E9D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -29,6 +37,8 @@ Global
 		{2AF6B451-FFCF-4F1D-B6F1-8C1F10786F4E} = {CBFD7A3D-88BB-4370-B386-A9D923DD9710}
 		{15200167-E612-4F4B-A424-0BBD7B96B0BA} = {2AF6B451-FFCF-4F1D-B6F1-8C1F10786F4E}
 		{2ECCB14D-AFB9-4118-AA83-F42F6851BBB2} = {15200167-E612-4F4B-A424-0BBD7B96B0BA}
+		{A1660CAF-A8D6-4FD2-8003-ABB721D80793} = {2AF6B451-FFCF-4F1D-B6F1-8C1F10786F4E}
+		{6B4ACFC1-BC59-4AE7-B306-0B908650E9D0} = {A1660CAF-A8D6-4FD2-8003-ABB721D80793}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {99D03B68-67E5-4C61-B01B-7E52EFAFEDC6}
